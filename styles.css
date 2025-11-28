@@ -43,3 +43,26 @@ header h1 {
     flex-direction: column;
   }
 }
+/* IMAGE + FILTER */
+img {
+  width: 100%;
+  filter: grayscale(40%);
+  transition: transform 0.3s ease;
+}
+
+/* Transform effect */
+img:hover {
+  transform: scale(1.05);
+}
+
+figcaption {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
